@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Hold'em Simulation | DedSoft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/dedsoft-favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Table -->
+    <div id="poker-room">
+        <!-- Top Seats -->
+        <div id="top-seats">
+            <!-- Seat 1 -->
+            <div id="seat1" class="seats">
+                <p>Seat 1</p>
+                <div class="card-container">
+                    <div id="s1-card1" class="card-mini"></div>
+                    <div id="s1-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 2 -->
+            <div id="seat2" class="seats">
+                <p>Seat 2</p>
+                <div class="card-container">
+                    <div id="s2-card1" class="card-mini"></div>
+                    <div id="s2-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 3 -->
+            <div id="seat3" class="seats">
+                <p>Seat 3</p>
+                <div class="card-container">
+                    <div id="s3-card1" class="card-mini"></div>
+                    <div id="s3-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 4 -->
+            <div id="seat4" class="seats">
+                <p>Seat 4</p>
+                <div class="card-container">
+                    <div id="s4-card1" class="card-mini"></div>
+                    <div id="s4-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 5 -->
+            <div id="seat5" class="seats">
+                <p>Seat 5</p>
+                <div class="card-container">
+                    <div id="s5-card1" class="card-mini"></div>
+                    <div id="s5-card2" class="card-mini"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table Cards -->
+        <div id="table">
+            <p>Currently waiting for action</p>
+            <div id="table-cards">
+                <div id="flop-1" class="card"></div>
+                <div id="flop-2" class="card"></div>
+                <div id="flop-3" class="card"></div>
+                <div id="turn" class="card"></div>
+                <div id="river" class="card"></div>
+            </div>
+            <div>
+                <button id="sd-button" onclick="dealTable()">Shuffle & Deal</button>
+                <button id="sw-button" onclick="showWinner()">Show Winner</button>
+            </div>
+        </div>
+
+        <!-- Bottom Seats -->
+        <div id="bottom-seats">
+            <!-- Seat 6 -->
+            <div id="seat6" class="seats">
+                <p>Seat 6</p>
+                <div class="card-container">
+                    <div id="s6-card1" class="card-mini"></div>
+                    <div id="s6-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 7 -->
+            <div id="seat7" class="seats">
+                <p>Seat 7</p>
+                <div class="card-container">
+                    <div id="s7-card1" class="card-mini"></div>
+                    <div id="s7-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 8 -->
+            <div id="seat8" class="seats">
+                <p>Seat 8</p>
+                <div class="card-container">
+                    <div id="s8-card1" class="card-mini"></div>
+                    <div id="s8-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 9 -->
+            <div id="seat9" class="seats">
+                <p>Seat 9</p>
+                <div class="card-container">
+                    <div id="s9-card1" class="card-mini"></div>
+                    <div id="s9-card2" class="card-mini"></div>
+                </div>
+            </div>
+            <!-- Seat 10 -->
+            <div id="seat10" class="seats">
+                <p>Seat 10</p>
+                <div class="card-container">
+                    <div id="s10-card1" class="card-mini"></div>
+                    <div id="s10-card2" class="card-mini"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

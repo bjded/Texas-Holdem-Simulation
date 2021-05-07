@@ -1,0 +1,122 @@
+/* General */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226,197,139);
+    background-image: radial-gradient(circle, rgba(226,197,139,1) 0%, rgba(175,129,105,1) 100%);
+}
+
+/* Seats */
+#top-seats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#bottom-seats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+.seats {
+    margin-right: 20px;
+}
+.seats p {
+    text-align: center;
+    margin: 0 auto 7px auto;
+    border: 1px solid black;
+    padding: 3px 0;
+    width: 50%;
+}
+.card-mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 75px;
+    border-radius: 5px;
+    border: 1.7px solid white;
+    background-color: lightblue;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-mini:last-child {
+    margin-right: 0;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Table */
+#table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 375px;
+    background-color: rgb(36,120,71);
+    background-image: radial-gradient(circle, rgba(36,120,71,1) 0%, rgba(9,108,54,1) 100%);
+    border: 13px solid #7e361d;
+    border-radius: 200px;
+    box-shadow: inset 0px 0px 7px 3px rgba(0,0,0,0.33);
+}
+#table p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color: white;
+    margin-bottom: 40px;
+}
+#table #table-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 115px;
+    border-radius: 8.5px;
+    border: 3px solid white;
+    background-color: lightblue;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.card:last-child {
+    margin-right: 0;
+}
+#table button {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    outline: none;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+#table button:last-child {
+    margin-right: 0;
+}
+#table button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
